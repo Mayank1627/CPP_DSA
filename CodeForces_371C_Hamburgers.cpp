@@ -38,7 +38,7 @@ long long binarySearch(string recipe,long long nb,long long ns,long long nc,
     long long high = 1e13;
     long long minCost = 0;
 
-    while(low < high){
+    while(low <= high){
 
         long long mid = low + (high-low)/2;
 
